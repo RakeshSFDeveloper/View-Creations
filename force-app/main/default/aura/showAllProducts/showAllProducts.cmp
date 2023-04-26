@@ -1,0 +1,12 @@
+<aura:component access="global"
+  implements="flexipage:availableForAllPageTypes,force:appHostable,force:hasRecordId,lightning:isUrlAddressable">
+  <aura:attribute access="private" name="error" type="String" default="" />
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <aura:attribute name="refRecordId" type="Id" />
+  <div style="height: 600px">
+    <aura:if isTrue="{! !empty(v.error)}">
+      <lightning:textarea name="errorTextArea" value="{!v.error}" label="Error: " />
+    </aura:if>
+    <lightning:container aura:id="ReactApp" src="/reactComponent/index.html" onerror="{!c.handleError}"  onmessage="{!c.openQuote}" />
+  </div>
+</aura:component>
