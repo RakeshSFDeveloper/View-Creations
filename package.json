@@ -1,0 +1,74 @@
+{
+  "name": "salesforce-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Salesforce App",
+  "scripts": {
+    "build": "webpack --mode production && sfdx force:source:deploy -p force-app/main/default/staticresources/reactComponent",
+    "start": "webpack serve --mode development",
+    "lint": "eslint **/{aura,lwc}/**",
+    "test": "npm run test:unit",
+    "test:unit": "sfdx-lwc-jest",
+    "test:unit:watch": "sfdx-lwc-jest --watch",
+    "test:unit:debug": "sfdx-lwc-jest --debug",
+    "test:unit:coverage": "sfdx-lwc-jest --coverage",
+    "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "postinstall": "husky install",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@lwc/eslint-plugin-lwc": "^1.1.2",
+    "@prettier/plugin-xml": "^2.0.1",
+    "@salesforce/eslint-config-lwc": "^3.2.3",
+    "@salesforce/eslint-plugin-aura": "^2.0.0",
+    "@salesforce/eslint-plugin-lightning": "^1.0.0",
+    "@salesforce/sfdx-lwc-jest": "^1.1.0",
+    "babel-loader": "^9.1.0",
+    "eslint": "^8.11.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "2.8.3",
+    "prettier-plugin-apex": "1.12.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "lint-staged": {
+    "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
+      "prettier --write"
+    ],
+    "**/{aura,lwc}/**": [
+      "eslint"
+    ]
+  },
+  "main": "jest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CongruentInfotechpvtltd/SF-CPQ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CongruentInfotechpvtltd/SF-CPQ/issues"
+  },
+  "homepage": "https://github.com/CongruentInfotechpvtltd/SF-CPQ#readme",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "lightning-container": "^1.0.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "primereact": "^8.7.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "style-loader": "^3.3.1",
+    "webpack-manifest-plugin": "^5.0.0"
+  }
+}
