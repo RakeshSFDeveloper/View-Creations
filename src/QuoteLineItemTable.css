@@ -1,0 +1,381 @@
+html {
+  font-size: 13px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: normal;
+  color: #495057;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0.5em;
+  margin-bottom: 50px;
+  width: 1355px;
+}
+
+.p-column-filter {
+  float: right;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.p-datatable-resizable .p-datatable-tbody > tr > td {
+  overflow-wrap: anywhere !important;
+  white-space: unset;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.search-header {
+  margin-left: 274px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  top: -18px;
+  position: relative;
+}
+.main-header {
+  margin-left: 274px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.dataViewdropdown {
+  margin-left: -287px;
+  top: -126.5px;
+  color: #80d0f0;
+  overflow-y: unset;
+  height: 37.5px;
+}
+
+.filtercss {
+  top: -87px;
+  right: -10px;
+  margin-left: 76.5rem;
+  color: #80d0f0;
+}
+
+.listCreation {
+  text-align: center;
+}
+
+.cancelAndSave {
+  margin-top: -2px;
+  margin-left: 165px;
+}
+
+.moveSaveButton {
+  margin-left: 5px;
+}
+
+.multiSelectHeader {
+  margin-top: 7px;
+  margin-left: 16px;
+}
+#searchInputText {
+  width: 17.7rem;
+}
+.suggestionDialog .p-dialog-header {
+  height: 3rem;
+}
+.suggestionDialog .p-dialog-header .p-dialog-title {
+  position: relative;
+  top: -3px;
+}
+.suggestionDialog .p-dialog-header .p-dialog-header-icon:last-child {
+  position: relative;
+  top: -4px;
+}
+.p-listbox {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  left: -4px;
+  top: -8px;
+}
+.p-listbox-list-wrapper {
+  overflow: auto;
+  min-height: min-content;
+  max-height: 20rem;
+}
+.p-listbox .p-listbox-list .p-listbox-item {
+  overflow-wrap: anywhere;
+}
+.p-dialog .p-dialog-content {
+  background: #ffffff;
+  color: #495057;
+  padding: 0 0.4rem 0rem 1rem;
+  position: relative;
+}
+.p-dialog .p-dialog-footer {
+  border-top: 0 none;
+  background: #ffffff;
+  color: #495057;
+  padding: 0 1.2rem 0rem 1.2rem;
+  text-align: right;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.p-dialog .p-dialog-header {
+  border-bottom: 0 none;
+  background: #ffffff;
+  color: #343a40;
+  padding: 1.2rem;
+  padding-top: 0.8rem;
+  padding-right: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.8rem;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.advancedFilterDialog {
+  width: 570px;
+  top: 74px;
+  left: 0.1rem;
+  margin: 0px;
+}
+.mr-2 {
+  position: relative;
+  top: -23px;
+  width: 80px;
+  margin-left: 78.5%;
+  margin-top: -10%;
+  background-color: rgb(1, 118, 211);
+}
+.stickyToTopTableHeaders {
+  position: sticky !important;
+  top: 0px !important;
+}
+
+.p-datatable .p-datatable-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100;
+  height: 50px;
+}
+
+.p-panel .p-panel-content {
+  padding: -0.75rem;
+  border: 1px solid #d6dbdf;
+  background: #f3f3f3 !important;
+  color: #ffffff;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top: 0 none;
+  height: 54px;
+  margin-top: -24px;
+}
+
+.dot-spin {
+  position: relative;
+  bottom: -18rem;
+  right: -50rem;
+  z-index: 2100;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 0 #9880ff,
+    18px 0 0 0 #9880ff, 12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0),
+    0 18px 0 0 rgba(152, 128, 255, 0),
+    -12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0),
+    -18px 0 0 0 rgba(152, 128, 255, 0),
+    -12.727926px -12.727926px 0 0 rgba(152, 128, 255, 0);
+  animation: dot-spin 1.5s infinite linear;
+}
+@keyframes dot-spin {
+  0%,
+  100% {
+    box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 0 #9880ff,
+      18px 0 0 0 #9880ff, 12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+  12.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 0 #9880ff, 18px 0 0 0 #9880ff,
+      12.727926px 12.727926px 0 0 #9880ff, 0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+  25% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #9880ff,
+      12.727926px 12.727926px 0 0 #9880ff, 0 18px 0 0 #9880ff,
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+  37.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0), 12.727926px 12.727926px 0 0 #9880ff,
+      0 18px 0 0 #9880ff, -12.727926px 12.727926px 0 0 #9880ff,
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+  50% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #9880ff,
+      -12.727926px 12.727926px 0 0 #9880ff, -18px 0 0 0 #9880ff,
+      -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+  }
+  62.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0), -12.727926px 12.727926px 0 0 #9880ff,
+      -18px 0 0 0 #9880ff, -12.727926px -12.727926px 0 0 #9880ff;
+  }
+  75% {
+    box-shadow: 0 -18px 0 0 #9880ff,
+      12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 0 #9880ff, -12.727926px -12.727926px 0 0 #9880ff;
+  }
+  87.5% {
+    box-shadow: 0 -18px 0 0 #9880ff, 12.727926px -12.727926px 0 0 #9880ff,
+      18px 0 0 -5px rgba(152, 128, 255, 0),
+      12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      0 18px 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+      -18px 0 0 -5px rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 0 #9880ff;
+  }
+}
+
+.filter-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 540px;
+}
+.filter-table tbody {
+  display: block;
+  overflow: auto;
+  max-height: 160px;
+}
+.filter-table thead tr {
+  display: block;
+  max-height: 160px;
+}
+.filter-cell {
+  width: 157.7px;
+}
+.moveConfirmButton {
+  bottom: 5px;
+  height: 30px;
+  width: 1px;
+  right: 69px;
+  background-color: rgb(1, 118, 211);
+}
+
+.deleteHeader {
+  text-align: center;
+}
+
+.p-speeddial-button.p-button.p-button-icon-only {
+  background-color: rgb(1, 118, 211);
+  margin-left: -139.3rem;
+  top: -27px;
+  border-radius: 4px;
+}
+
+.p-speeddial-action {
+  background-color: rgb(231, 227, 227);
+  color: rgb(1, 118, 211);
+  margin-top: -28px;
+  border-radius: 3px;
+  height: 35px;
+  width: 36px;
+  margin-left: -1px;
+}
+.addmoreprodcss {
+  height: 38px;
+  top: -163px;
+  right: -10px;
+  margin-left: 64.7rem;
+}
+
+.filterInputElements {
+  width: 153px !important;
+}
+
+.alignDefaultBox {
+  margin-bottom: -4px;
+}
+
+.grandTotal-header {
+  position: relative;
+  right: -5px;
+  font-family: sans-serif;
+  height: 55px;
+}
+.p-divider-horizontal {
+  display: flex;
+  width: 127%;
+  position: relative;
+  align-items: center;
+  right: 280px;
+  top: -20px;
+}
+.p-speeddial-direction-right .p-speeddial-list {
+  position: relative;
+  top: -13px;
+  flex-direction: row;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-header {
+  width: 1342px;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  position: relative !important;
+  bottom: -3rem !important;
+}
+.viewDropPanel {
+  background: #ffffff;
+  color: #495057;
+  border: 0 none;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+}
+
+.filterDropPanel {
+  background: #ffffff;
+  color: #495057;
+  border: 0 none;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+  width: 0px;
+}
+
+.p-dropdown-panel .p-dropdown-header .p-dropdown-filter {
+  width: 140px;
+  margin-left: -10px;
+}
+
+.finalizeButtonDiv {
+  left: 1248px;
+  top: -35px;
+  position: relative;
+  font-family: sans-serif;
+}

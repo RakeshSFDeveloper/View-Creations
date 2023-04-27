@@ -1,0 +1,257 @@
+html {
+  font-size: 13px;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: normal;
+  color: #495057;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0.5em;
+  margin-bottom: 50px;
+}
+
+.p-column-filter {
+  float: right;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.search-header {
+  margin-left: 274px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.main-header {
+  margin-left: 274px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.dataViewdropdown {
+  margin-left: -270px;
+  top: -104px;
+  color: #80d0f0;
+  overflow-y: unset;
+}
+
+.filtercss {
+  top: -69px;
+  margin-left: 77rem;
+  color: #80d0f0;
+}
+
+.listCreation {
+  text-align: center;
+}
+
+.cancelAndSave {
+  margin-top: 60px;
+  margin-left: 165px;
+}
+
+.moveSaveButton {
+  margin-left: 5px;
+}
+
+.multiSelectHeader {
+  margin-top: 7px;
+  margin-left: 16px;
+}
+.p-listbox {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.p-dialog .p-dialog-content {
+  background: #ffffff;
+  color: #495057;
+  padding: 0 0.4rem 0rem 1rem;
+  position: relative;
+}
+.p-dialog .p-dialog-footer {
+  border-top: 0 none;
+  background: #ffffff;
+  color: #495057;
+  padding: 0 1.2rem 0rem 1.2rem;
+  text-align: right;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.p-dialog .p-dialog-header {
+  border-bottom: 0 none;
+  background: #ffffff;
+  color: #343a40;
+  padding: 1.2rem;
+  padding-top: 0.8rem;
+  padding-right: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.8rem;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.suggestionDialog {
+  width: 230px;
+  height: 300px;
+  top: -40.4px;
+  left: 14.88px;
+}
+.advancedFilterDialog {
+  width: 570px;
+  top: 5.5rem;
+  left: 0.5rem;
+  margin: 0px;
+}
+.mr-2 {
+  position: relative;
+  top: -23px;
+  width: 80px;
+  margin-left: 78.5%;
+  margin-top: -10%;
+  background-color: rgb(1, 118, 211);
+}
+.stickyToTopTableHeaders {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 100;
+  background-color: lightgray !important;
+}
+
+.p-datatable .p-datatable-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100;
+}
+/*-------------For screen size between 280Px to 380Px -----------------------*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 380px) {
+  .cancelAndSave {
+    margin-top: 60px;
+    margin-left: 55px;
+  }
+  .mr-2 {
+    margin-left: 190px;
+  }
+}
+
+/*-------------For screen size between 280Px to 559Px -----------------------*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 559px) {
+  .createView {
+    margin-top: -50px;
+  }
+  .search-header {
+    margin-left: -270px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  .suggestionDialog {
+    width: 230px;
+    height: 200px;
+    top: -47px;
+    left: 17px;
+  }
+  .p-dialog-mask:has(> .suggestionDialog) {
+    justify-content: unset !important;
+  }
+  .advancedFilterDialog {
+    width: 550px;
+    top: 8rem;
+    left: 1rem;
+    margin: 0px;
+    overflow: scroll;
+  }
+}
+
+/*-------------For screen size between 560Px to 852Px -----------------------*/
+@media only screen and (min-device-width: 560px) and (max-device-width: 852px) {
+  .search-header {
+    margin-left: -32px;
+  }
+  .createView {
+    margin-left: -9px;
+    margin-top: -5px;
+  }
+  .suggestionDialog {
+    width: 230px;
+    height: 300px;
+    top: -35px;
+    left: 256px;
+  }
+  .advancedFilterDialog {
+    width: 550px;
+    top: 5rem;
+    left: 0.5rem;
+    margin: 0px;
+    overflow: scroll;
+  }
+  .p-dialog-mask:has(> .suggestionDialog) {
+    justify-content: unset !important;
+  }
+}
+
+/*-------------For min screen size of 853px-----------------------*/
+@media only screen and (min-device-width: 853px) {
+  .p-dialog-mask:has(> .suggestionDialog) {
+    justify-content: unset !important;
+  }
+  .suggestionDialog {
+    width: 230px;
+    height: 300px;
+    top: -35px;
+    left: 560px;
+  }
+}
+.filter-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 540px;
+}
+.filter-table tbody {
+  display: block;
+  overflow: auto;
+  max-height: 160px;
+}
+.filter-table thead tr {
+  display: block;
+  max-height: 160px;
+}
+.filter-cell {
+  width: 157.7px;
+}
+.moveConfirmButton {
+  bottom: 5px;
+  height: 30px;
+  width: 1px;
+  right: 69px;
+  background-color: rgb(1, 118, 211);
+}
+
+.deleteHeader {
+  text-align: center;
+}
+
+.p-speeddial-button.p-button.p-button-icon-only {
+  background-color: rgb(1, 118, 211);
+  margin-left: -135.5rem;
+  top: -5px;
+  border-radius: 4px;
+}
+
+.p-speeddial-action {
+  background-color: rgb(231, 227, 227);
+  color: rgb(1, 118, 211);
+  margin-top: -0.6rem;
+  border-radius: 4px;
+}
